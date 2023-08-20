@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+
+img { 
+    background: url(img/chosenImage) no-repeat center fixed;
+    background-size: cover;
+  }
+
