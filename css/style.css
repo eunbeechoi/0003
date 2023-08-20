@@ -80,8 +80,6 @@ body {
     color: white;
     font-size: 15px;
     text-align: center;
-    
-
 }
 
 #todo-list {
@@ -111,8 +109,6 @@ body {
     z-index: 2;
     text-align: center;
 }
-
-
 
 
 #login-form input {
