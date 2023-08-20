@@ -30,6 +30,8 @@ function paintToDo(newTodo) {
     span.innerText = newTodo.text; // span의 텍스트는  handletoDoSubmit에서 온 newToDo 텍스트가 됨.
     //span안에 넣은 새로운 텍스트는 사용자가 form에서 우리에게 준 newTodo 값
     const button = document.createElement("button");
+    button.style.backgroundColor ="transparent";
+    button.style.border = "none";
     button.innerText = "✅";
     button.addEventListener("click", deleteToDo);
 
