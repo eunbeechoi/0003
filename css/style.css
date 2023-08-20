@@ -111,3 +111,41 @@ body {
     z-index: 2;
     text-align: center;
 }
+
+
+
+
+#login-form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 30px;
+    z-index: 2;
+}
+
+#login-form button {
+    background-color: transparent;
+    border: none;
+
+    height: 30px;
+    z-index: 2;
+    padding: 10px;
+}
+
+#login-form input::placeholder {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#login-form {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                             
+    font-size:4rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    
+}
